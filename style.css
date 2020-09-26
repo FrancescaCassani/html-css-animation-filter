@@ -116,3 +116,11 @@
 .ex-6-img:hover {
   filter: grayscale(2);
 }
+
+/* Esercizio  7 */
+.ex-7-img:hover {
+  transition: 3s;
+}
+.ex-7-img:hover {
+  filter: grayscale(2);
+}

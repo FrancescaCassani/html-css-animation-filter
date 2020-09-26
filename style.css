@@ -69,25 +69,6 @@
 }
 
 /* ANIMAZIONI, TRANSIZIONI E FILTRI */
-
-/* Esercizio  5 */
-.ex-5-square {
-  transition: 2s;
-}
-.ex-5-square:hover {
-  transform: scale(1.5);
-  }
-.ex-5-square:active {
-  transform: scale(.1);
-}
-
-
-
-
-
-
-
-
 /* Esercizio 1 */
 .ex-1-square {
   transition: 1s;
@@ -118,3 +99,20 @@
 }
 .ex-4-square:hover {
   opacity: 0;
+}
+
+/* Esercizio  5 */
+.ex-5-square {
+  transition: 2s;
+}
+.ex-5-square:hover {
+  transform: scale(1.5);
+}
+.ex-5-square:active {
+  transform: scale(.1);
+}
+
+/* Esercizio  6 */
+.ex-6-img:hover {
+  filter: grayscale(2);
+}

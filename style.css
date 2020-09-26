@@ -131,4 +131,15 @@
 }
 .ex-8-img:hover {
   filter: grayscale(2) opacity(40%);
+  border-radius: 30%;
+}
+
+/* Esercizio  9 */
+.ex-9-img:hover {
+  transition: 3s;
+}
+.ex-9-img:hover {
+  filter: sepia(2) contrast(2);
+  border-radius: 30%;
+  transform: scale(.5);
 }

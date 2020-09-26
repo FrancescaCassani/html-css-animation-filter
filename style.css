@@ -146,13 +146,35 @@
 
 /* Esercizio 10 */
 .ex-10-icon {
- animation: round 3s linear infinite;
+ animation: spin 3s linear infinite;
 }
-@keyframes round {
+@keyframes spin {
   from {
     transform: rotate(0);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+ animation: round 5s linear infinite;
+}
+@keyframes round {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0);
   }
 }
